@@ -1,0 +1,19 @@
+To install menu generator into /usr/local, just type 'sudo make install'.
+Edit 'prefix' in Makefile to install elsewhere.
+
+Add a line something like:
+ <menu id="pipe" label="Applications" icon="/usr/share/icons/gnome/24x24/status/folder-open.png" execute="obpipec"/>
+to your ~/.config/openbox/menu.xml and restart openbox.
+
+To include another desktop directory to read use ...execute="obpipec -d <DIR>"/>
+To try reading .gtkrc-2.0 for the icon theme use ...execute="obpipec -i"/>
+
+Changes
+
+0.1 -  14 Apr 13
+	first release - basics only
+
+0.2 -  24 Apr 13 
+	use the -d and -i switches
+	try to look up icons from gtkrc-2.0
+	handle unity desktop entries properly

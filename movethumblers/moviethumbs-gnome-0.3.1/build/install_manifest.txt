@@ -1,0 +1,7 @@
+/usr/local/lib/libmoviethumbs.so
+/usr/local/include/libmoviethumbs/fileparser.h
+/usr/local/include/libmoviethumbs/movieclient.h
+/usr/local/include/libmoviethumbs/movieservice.h
+/usr/local/include/libmoviethumbs/posterservice.h
+/usr/local/include/libmoviethumbs/tvservice.h
+/usr/share/MovieThumbs/blacklist

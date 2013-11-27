@@ -1,0 +1,38 @@
+# project thunar-dropbox (0.2.0) configured on Tue Sep 24 20:38:49 2013 by
+# waf 1.5.16 (abi 37, python 30205f0 on linux2)
+# using ./waf configure --prefix=/usr
+#
+
+----------------------------------------
+Checking for program gcc or cc
+  find program=['gcc', 'cc'] paths=[] var='CC'
+  -> '/usr/bin/gcc'
+
+----------------------------------------
+Checking for program cpp
+  find program=['cpp'] paths=[] var='CPP'
+  -> '/usr/bin/cpp'
+
+----------------------------------------
+Checking for program ar
+  find program=['ar'] paths=[] var='AR'
+  -> '/usr/bin/ar'
+
+----------------------------------------
+Checking for program ranlib
+  find program=['ranlib'] paths=[] var='RANLIB'
+  -> '/usr/bin/ranlib'
+
+----------------------------------------
+Checking for gcc 
+ok 
+
+----------------------------------------
+Checking for thunarx-2
+pkg-config --errors-to-stdout --print-errors --cflags --libs thunarx-2
+b'-pthread -I/usr/include/thunarx-2 -I/usr/include/gtk-2.0 -I/usr/lib64/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -lthunarx-2 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lpangoft2-1.0 -lpango-1.0 -lfreetype -lfontconfig -lgio-2.0 -lgobject-2.0 -lglib-2.0 \n'b''yes
+
+----------------------------------------
+Checking for gio-2.0
+pkg-config --errors-to-stdout --print-errors --cflags --libs gio-2.0
+b'-pthread -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -lgio-2.0 -lgobject-2.0 -lglib-2.0 \n'b''yes

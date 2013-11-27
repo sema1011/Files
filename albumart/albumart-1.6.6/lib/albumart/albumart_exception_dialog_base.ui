@@ -1,0 +1,183 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>ExceptionDialogBase</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>ExceptionDialogBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>438</width>
+            <height>167</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Error - Album Cover Art Downloader</string>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout6</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>pixmapLabel1</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>0</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="pixmap">
+                        <pixmap>image0</pixmap>
+                    </property>
+                    <property name="scaledContents">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>message</cstring>
+                    </property>
+                    <property name="text">
+                        <string></string>
+                    </property>
+                    <property name="alignment">
+                        <set>WordBreak|AlignVCenter</set>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout10</cstring>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer row="0" column="0">
+                    <property name="name">
+                        <cstring>spacer6</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>0</width>
+                            <height>231</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QTextEdit" row="0" column="1">
+                    <property name="name">
+                        <cstring>traceback</cstring>
+                    </property>
+                    <property name="readOnly">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout7</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>141</width>
+                            <height>31</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushOk</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;OK</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+O</string>
+                    </property>
+                    <property name="iconSet">
+                        <iconset>image1</iconset>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pushMore</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;More information &gt;&gt;</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+M</string>
+                    </property>
+                    <property name="iconSet">
+                        <iconset>image2</iconset>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1579">89504e470d0a1a0a0000000d4948445200000020000000200806000000737a7af4000005f2494441545885c597ef6f5b5719c73fe7c6d7b9711b374d0c0dcdbab6d30a4d5ae12c575b91864a0b823793604ca568aa36b2126b7b014288a9bc99548d3f800a21a44d565b22edcdc60408a94310452d1d2b2b10a749b54e4a6720a9d2fc721cdbb3afaf7dafcfe185ed1b3bf14dba098947fa4af7def39ce7fb3dcf39f79ce7c0ffd9c427719e328f1d544a9d9430080c4a54430c312d61ba0c5747cd681290f1785cfd4f044c99c75e008681e34a292410048c5abb0dd83471dd70116f5c34a39700271e8fcb4f2560ca3cf6980617247ca54d29ba80dd42100ab6937ba88fb5c7cdaa63bec0fef1ab944a362929591502474940146d7879d48cfe1ab05b09f115501bf525805ee0b3c176e6bf3fcccea347087dfe109a616cea539abf4ff6e6dfe1fabbe81393ccaa0a0065c4ef2e9bd11120178fc7dd6d05d4c9db95e29010cc9f7996c8d3df22d0b5cb375b62c36c67fefa1efaeb71161717c9a37011d317cde8378095c64c6c1250270f017bf6eda33c72964e73c897782b7356d3a42f5dc6baf617f2286cc43ba366f4bb805517d1d6d8e1d6d0138f0921ded195a2afaf0ff5d397310eec47390ef9f76f529a9d231089a01c674bd47ddb1fde47c7178f22575230770f893af4c8c2d2dfeeecedbd679aa69b4824086c107db9a2144785207d769850388c2a16b1ee7c48e4f42900526fbd4d68a0df77d4ad7cc3cf9f415f5a267f77862e781598041cc0f13290187ae205052fee459079fe0c3bfb0fa31c07fba3a4171020746480ecb5eb68a1d0a691fbf906c261e481fd74bdfb1e39e4e706169632d37b7b274dd32c6b7567891a6e13829dbd7bd8f185c348cb425a5653c0ba454e9fa2343be7f948cba2343be7eb2b2d0b7d5798ecb7bf892e340c7806e802740de09f438f1f048ef72845faab27c075a8142c2a05cb37d591d3a7705652540a16ce4aaa2579dddc4c16eb5fffa64d297a9442430d3e3571ab1f30ea6be0245437998f2311a4b54e9c7aeb6ddfe091d3a7b66c0798ffc939fa6efec37bb784605129c2f02430599f824100b5670f4849a55068c2d2e5d12d33e167b3e77fd6440e100ab60310441c063a3c010682727737329f6f89855ffeca97a895a5475ea273fe3e685a1575d33474a111844701c36b318072b8b369616db4071671fc6b74cfdca57be66ef55dca26113baa079aa0be08a9ed88c17c01721faf638349db263df2d2b6e49bac31031b5abc8dc8068c4c06a5ebebcd4bcbdea3379aebe35b0bb83ede5a4483908210a0aa87474d8098b6515f6e5fcb10702b2dfb3a9d9de8577ebf35f97622020128977194c4452401a901489806708a165ab9d4120f4cde28a29138501d6ba9640360a39280a30194e12a405a4ada84b619637ff427f24b77a388ba804080b4ac9ec4194800b60650abe16eac0881a3eb381d8607fe7c657bf26d4478f1749d15217011b7ff640ece02c5faf2942ee20d474952b92cc5ddbb3df8596e7884dc2307d7313ce2eb5b8f95ca657194248f1a030a40d12b4862b158fb8b1353d7407de9c0c01164779717e033bfb8d01470e5473ff625f3f3d5d219fe73e7035cc4ed8b66f487c02cb0d0f8833a369c03984f26718d0e9cce304e6798fbaf9cf79ceebf72defbde0aad7c5da383f964128045d46b40a606a7a9248bc562faf726a67e60a07e1e0c87d975f2047adbc69ae593995371c95ebd4639972383b8f0a619fd0d30072cc7e37167e316e58e9ad1d76dc4b9722ec7dad83845a78c160c7e2a149d326b63e38de4bf05968035c0850d35612291c034cdcad4dedea9a30b4b59cd297fdd9e9941735db487fad082c1a65fca0f2e602526c9dcb881749c46f205601928d66f4d2dcbf2582ca601a1ef4c4c9de8825735d4906674107a781f72a09f5d3d3de86d4dda712a15b2abab68773ec49abb87b48bb888db8ba8d7ae988393b5912fd35011fb0a68106100bb9f9b983a6bc0331a6ad07308ed2010e9a9ce5b6a15acc2fa3c226ee751636f9a837fa0bad852b5b46fba1d6d79358bc56282ea79b103e87a6ae2567f189e0c220e07e151d9d0df85a48d4a662051db640a40b626a000b8ad2eab0f7439ad6543af65a4a306a3f6cddbcca896da3650acc1669bcbe97f01b5680de8095d1fd50000000049454e44ae426082</data>
+    </image>
+    <image name="image1">
+        <data format="PNG" length="591">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b0000021649444154388dedd54f68545718c6e1e7de9b349384a62394263b6f413021200dc2e8726653b28c0b571132c1457123edc6a581d2d63f441415a4143a29b69b8260445c09a3e0c2e51813503763a185e2c24c292499f1c6d345d0c4686a2266e70b1f1cce39fc78f978cf77a21082ed50bc2dd4ed0447ef13d6f3bbb43d36d19e1889a25f5443f08db2da3b132b52b189245246234994223f9907cf957cb545f88f529189ae5c5779a1b940e4b1c80187d5622d577b7b7af33255177cb129e079a98b2ab924572f0e15cbbb3edd454bcd33430eaf988bb54c8b28140b79cf544dfe0f7c52ea8c4a7bd25e1fd83b501e3e386cf6c1ac998733b7644a8e68ac5e3e2defa430b83818faeef70527cdfb611dfc7ba9132af1d938ecb8b323f42ff587c1c5c1d0fd7377704ae54d1e5652f1ad6a723029c6bb63d9bd4cb8161a8292a02132a153d93eda0a6da25cc4df649733a119a61c37fe26701b689a5e9e592e2eef5c6637be94775d5587bc020ac891c9f803bfa269dc77a636eada8ae363521fa9fb7acdc9137c828e357bb3b8899671a73786ae82e1a8ba31a9cf36b839871b1a6225e7de1ecbe4e56a48aac37e7dc8d6d54d54353c57727173595f9d152db7cd61715d4de3ae9acce72e6dfe01bd3a2b0e993726ef633471037fa989945c5e9bd1ad3886e0963afec115fc694ad83a94b53d863d3afd6bc4233c35e537e3ee5bda2af4758dca1b158cbe12bc7752f4e16b7aa1ff00db39ad95e4ce74590000000049454e44ae426082</data>
+    </image>
+    <image name="image2">
+        <data format="PNG" length="1002">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003b149444154388da5d34b6c54551cc7f1ef79dcd7dcb9d3db690b9dd698419a261a1fa3068c0b4349c490189309091171c1c32dd19d2b13342c58b8c0078a1b2d24222e8c803106244682ba40131d225a2895a141fb006acbf4ce308ffb7081121fc90de06f7516e77cf23ffffcff82bfe5c0812345c388b777106521135f90a0952089a82451b26ffdfa275fe32623fe3aecddfbf1e6488b5d19d7f633d92c8e6321a504200c439a4140bd56abb41a6cd9ba755de5a6e0ddbbf76f363272b4b7d08fe7b998a646290540144618a681528a7a5067aa7a7ee1ea7cf8e0b66dcf5e4883f5ce9da3c55046bb0a85017c3f879775b06d132925611453af5f23ec8428a5e8e9ed46b0ccafd57e1a0556a7c1328aea2ff8f99cefba0eaeeb90cb65e9ca79f85e96288ce8ebed2693b1314d0d407f6109f95e7f64c78e374ba9702b6a97fd9e3c866160db268e6de1390e5dae4b1cc7985a93c9d8b81907c7b6300d4d7179914e6771536a2ba44c8a9669a0b5440a10089452d4ea0d2cdbc2320de224464a8910822449e82ff4d36c36522bd686a9504a2184e06aad4e506f32675b2825c879590ca588b4be0103c4714cab752dcd452fd6ea371e38b685363412c865b3b89645b3dd466b8d96122925499210c6318d46331596b3b37317a228424ac9fcc2229d7607a515511cd168b7514a6128856118985a636acdcc6f5304413b7596e59599854393e7ab0058964118c54471025cefb7fcb35243292cc3406bcdb1a3c7585c8cf6a5c241205e39f1e5370bad5607c7b65052a4dda77abecaa9ca188383772da4c2c78fbfbb30f36bb0e5d3839fd06a77b06d1380284e484888e398388ee9441167c62778e3f5b7191e2e91cbb9a953a100aad5ca19d75e766ae2dccf6bfd2ecfee5bba04ad155288eb3b2f04473f3bc207ef7fc4d0d0030c0e0ed067fdbee1f9fbcebefcf44399e2fe6f170fff1bfec7bf47469ef34db3b3bdafdf2be7bb3345a50420397776f278a763ec5bb1e2914aabd5f27d796974b871b0b8b2e4315f9d606cdad9bbf1bde92da93dbc99bcf34c61fef2772f258db157932b1f3e9a9c7cd14ff66c288cfea715b79ad543de6c63ee62f9ee9155c8dc9d78720e599b2a0df7e68b5f8c07876f1bfefc4c501972e4e4e589d3e5fbd73c8eccdd81afaea06b53a5816c77f1eb6a70f8b6608013bf049541292767c77f2c3fbc760dd21ba0c79cc308a64a5d3a5fbc6d18e0e4c5a0920f999c1d3f5d5ef9d41348b740565ce2ab1f9aa5ff050354a6eb959ee83a7eefaac7786bcff7b07c1de96b760bd9545a3aea3872b3be6723d599e6a13f006fef5dd942de4a6b0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>pushOk</sender>
+        <signal>clicked()</signal>
+        <receiver>ExceptionDialogBase</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>pushMore</sender>
+        <signal>clicked()</signal>
+        <receiver>ExceptionDialogBase</receiver>
+        <slot>showTraceback()</slot>
+    </connection>
+</connections>
+<slots>
+    <slot>showTraceback()</slot>
+</slots>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

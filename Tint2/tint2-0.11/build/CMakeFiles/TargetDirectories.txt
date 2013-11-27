@@ -1,0 +1,3 @@
+/home/sema/Tintwizard/tint2-0.11/build/CMakeFiles/tint2.dir
+/home/sema/Tintwizard/tint2-0.11/build/src/tint2conf/CMakeFiles/tint2conf.dir
+/home/sema/Tintwizard/tint2-0.11/build/CMakeFiles/version.dir

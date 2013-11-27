@@ -1,0 +1,33 @@
+obmenu (1.0-2+nmu1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Handle insufficient number of command-line arguments in obm-xdg
+    (closes: #693319).
+
+ -- Michael Gilbert <mgilbert@debian.org>  Wed, 21 Nov 2012 03:44:13 +0000
+
+obmenu (1.0-2) unstable; urgency=low
+
+  [ Edgar Antonio Palma de la Cruz ]
+  * New maintainer. Closes: #583246, #512607
+  * Bumped Standards-Version to 3.9.2
+  * Bumped compat file and debhelper to 8
+  * Added misc depends to control file.
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Removed cdbs and dpatch from control file.
+  * Added a watch file.
+  * Fixed a few typos on manpages of obm-dir and obm-moz. Closes: #573819
+  * Fix the python2.5 dependency. Closes: #623012
+  * Removed post*debhelper.
+  * Added python-Depends to binary.
+  * Added a homepage.
+  * Moved to Applications/System/Administration section on menu file.
+
+ -- Edgar Antonio Palma de la Cruz <xbytemx@gmail.com>  Mon, 02 May 2011 00:32:41 +0200
+
+obmenu (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #433520)
+
+ -- Davide Truffa <davide@catoblepa.org>  Thu, 02 Aug 2007 11:50:50 +0200
+

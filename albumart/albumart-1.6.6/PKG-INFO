@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: albumart
+Version: 1.6.6
+Summary: Downloads album cover images semi-automatically from the Internet.
+Home-page: http://unrealvoodoo.org/hiteck/projects/albumart
+Author: Sami Kyöstilä
+Author-email: sami.kyostila@gmail.com
+License: GPL
+Description: Album Cover Art Downloader is a utility for semi-automatically downloading matching cover images for each album in your music collection. It saves the cover images so that they will be automatically used by programs such as Konqueror, various XMMS plugins, Windows Media Player, etc.
+Platform: UNKNOWN

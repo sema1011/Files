@@ -1,0 +1,20 @@
+# ChangeLog for obmocmenu
+
+0.8.4 [2011-03-10]
+ * Add random list feature and use zenity if available
+ * Fix handling of tags with symbols
+
+0.8.3 [2011-03-10]
+ * Improve handling of empty tags
+ * Add menu entry to select a random playlist
+ * Add shortcut keys
+ * Include this ChangeLog
+
+0.8.2 [2011-03-10]
+ * Fix sorting of playlists
+
+0.8.1 [2011-03-09]
+ * Fix handling of moc version 2.4.4
+
+0.8.0 [2011-03-09]
+ * Initial release

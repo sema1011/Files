@@ -1,0 +1,44 @@
+0.3.1 (2013-08-14)
+================================
+* Fix cache issue
+* Return version with "moviethumbs -v"
+
+0.3.0 (2013-08-09)
+================================
+* Increased download speed
+* Dropped libTvdb dependency
+* Support for nautilus
+* Posters from series are cached
+* Blacklist to remove common words
+* Memory optimizations
+
+0.2.1 (2013-05-27)
+================================
+* Bugfix release
+* Remove the year from the search query
+
+0.2.0 (2013-05-25)
+================================
+* Small code improvements
+* Improved download speed
+* Fileparser class for regular expressions
+* Optional support for series
+* Cmake version number (for debugging)
+
+0.1.2
+================================
+* Search queries are now encrypted
+* Poster are found even with complex file names
+* Check for network connection first
+
+0.1.1 (2013-03-18)
+================================
+*Improved year regular expression
+*Better consistency with other video thumbnails
+*Added translations
+*Remove text between brackets
+
+0.1 (2013-03-17)
+================================
+*Add year to the query
+*Initial release 

@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+a6201689a91f051fd6ae751b337b313b fileparser.moc
+8a82b07647e0c1156b879df99e5bea48 movieclient.moc
+aa2c7989592072504e3490814ec397d4 movieservice.moc
+80f9e7e56b6a0b8f7873da4379298e5b posterservice.moc
+b6c73a5cc53177459deef48cd00c761c tvservice.moc

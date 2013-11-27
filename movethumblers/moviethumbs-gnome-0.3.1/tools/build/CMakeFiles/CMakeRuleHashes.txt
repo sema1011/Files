@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+eb09e3c80d2cc6aa6b65ae08998e2f3a moc_tools.cxx

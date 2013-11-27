@@ -1,0 +1,90 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec203854173/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec203854173.dir/build.make CMakeFiles/cmTryCompileExec203854173.dir/build
+gmake[1]: Вход в каталог `/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec203854173.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec203854173.dir/CheckSymbolExists.cxx.o -c /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: В функции «int main(int, char**)»:
+/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: ошибка: нет декларации «Q_WS_WIN» в этой области видимости
+gmake[1]: Выход из каталога `/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec203854173.dir/CheckSymbolExists.cxx.o] Ошибка 1
+gmake: *** [cmTryCompileExec203854173/fast] Ошибка 2
+
+File /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2624930478/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2624930478.dir/build.make CMakeFiles/cmTryCompileExec2624930478.dir/build
+gmake[1]: Вход в каталог `/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2624930478.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2624930478.dir/CheckSymbolExists.cxx.o -c /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: В функции «int main(int, char**)»:
+/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: ошибка: нет декларации «Q_WS_QWS» в этой области видимости
+gmake[1]: Выход из каталога `/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2624930478.dir/CheckSymbolExists.cxx.o] Ошибка 1
+gmake: *** [cmTryCompileExec2624930478/fast] Ошибка 2
+
+File /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2753898423/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2753898423.dir/build.make CMakeFiles/cmTryCompileExec2753898423.dir/build
+gmake[1]: Вход в каталог `/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2753898423.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2753898423.dir/CheckSymbolExists.cxx.o -c /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: В функции «int main(int, char**)»:
+/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: ошибка: нет декларации «Q_WS_MAC» в этой области видимости
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2753898423.dir/CheckSymbolExists.cxx.o] Ошибка 1
+gmake[1]: Выход из каталога `/home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2753898423/fast] Ошибка 2
+
+File /home/sema/src/movethumblers/moviethumbs-gnome-0.3.1/tools/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

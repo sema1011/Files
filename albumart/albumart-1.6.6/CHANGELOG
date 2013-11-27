@@ -1,0 +1,91 @@
+1.6.6:
+        - Fixed unicode BOM bug for UTF-8/16 systems.
+        - Removed hardcoded latin-1 encoding.
+        - Made the configuration dialog more accessible.
+        - Don't crash when using the generic image exporter on an item 
+          that was not recognized.
+
+1.6.5:
+        - Support unicode paths.
+        - Support for ID3 v2.4 files courtesy of Andy Ward.
+
+1.6.4:
+	- Added support for Amazon S4.0 web service. Thanks to Chris Brooker for this!
+	- Made a nicer download progress widget.
+
+1.6.3:
+	- Removed support for obsolete Amazon S3.0 web service.
+
+1.6.2:
+	- Fixed a typo in a source file.
+
+1.6.1:
+	- Minor source file encoding change to fix crash on Python 2.5.
+
+1.6.0:
+	- New image sources added: Walmart, Buy.com, Yahoo! Image search.
+	- Made media file extensions configurable.
+	- Added a generic image target which can save cover images flexibly.
+	- Added a folder-based view in addition to the default album view.
+	- Strip null characters from id3v2 tags.
+	- Fixed freedesktop.org target under Windows.
+
+1.5.0:
+	- User interface overhauled.
+	- Group music by albums rather than directories.
+	- Don't change mp3 modification times.
+	- Don't hang with large music collections.
+	- Drag and drop support enhanced.
+	- Removed support for Qt 2.3.
+	- Ability to write different ID3 picture types.
+	- Output images can be scaled smaller if needed.
+	- Added collection caching for faster startup.
+
+1.4.0:
+	- Album information is now also read from ID3v2 tags.
+	- All the automated processes now process each file separately rather
+	  than working on a directory basis.
+	- Command line mode for automatic processing.
+	- New win32 installer.
+	- Removed support for Qt 3.0.0.
+	- Improved album and artist guessing.
+	- Removed need to register with Amazon Web Services.
+
+1.3.2:
+
+	- Fixed settings and fd.o target for Python 2.2.
+	- Fixed relpaths config item handling.
+
+1.3.1:
+
+	- Don't report bogus album counts.
+	- Don't leave temporary files lying around.
+	- Make sure the images are in JPEG format.
+	- Added missing generators import for Python 2.2.
+
+1.3:
+
+	- Upgraded to the new Amazon web services API.
+	- Added ability to save images into ID3 v2 tags.
+	- Made the freedesktop image path relative, see http://bugs.kde.org/show_bug.cgi?id=73463
+	- Added automatic image downloader.
+	- Added automatic image synchronizer, that makes sure all the image
+	  targets have the same picture.
+	- Added better status information and error reporting.
+	- Made the folder icon size configurable.
+	- The main window now looks nicer when you maximize it.
+	- Switched to nicer icons.
+
+1.2:
+
+	- Made sure the images are saved in a proper format. Thanks to Josh
+	  Portner for pointing this out.
+	- Paths with non-ascii characters are now handled properly.
+	- Don't freeze the UI while reading a directory.
+	- Save settings for the user (last directory, etc.).
+	- Now able to select source and target modules.
+	- Cover image previews in the directory list and above the cover list.
+	- Reload UI icons to restore alpha transparency.
+	- New keyboard shortcuts and actions for navigating the directory list.
+	- Ability to remove cover images.
+

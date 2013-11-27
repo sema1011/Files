@@ -1,0 +1,64 @@
+About this script:
+----------------------------------------
+
+This script creates an Openbox pipe menu for managing Music On Console (moc).
+
+A configuration file is available to modify various behaviours. A playlist
+directory can be selected to easily play/append a playlist of your choice.
+
+A random list feature has also been added. In these lists, each line is an
+entry that can be the full path to a directory, file or playlist. A random
+entry is selected from the list. In this way a random album or song can be
+added to the current playlist. If zenity is installed, a dialog is used to
+ask how many random entries to add. See the configuration file for more
+information.
+
+
+
+Dependencies:
+----------------------------------------
+
+ * openbox
+ * moc
+ * zenity (optional)
+
+This script has only been tested on Arch Linux using Bash 4.2, Openbox
+3.4.11.2, moc 2.5.0-alpha4 and zenity 2.32.1.
+
+I have briefly tested with moc 2.4.4 which is missing a few features. I have
+put in a simple test to see the version. The toggle menu will only be shown
+if the version is not 2.4.4. If the version is not 2.4.4, the script assumes
+that a newer version of moc is being used.
+
+
+
+Installation:
+----------------------------------------
+
+1. As root, copy "obmocmenu" to "/usr/bin" or anywhere else you have
+   included in your $PATH:
+
+    install -m755 obmocmenu /usr/bin/obmocmenu
+
+2. Backup any existing configuration files.
+
+3. As root, copy "obmocmenu.conf" to "/etc/obmocmenu.conf" for global
+   configuration:
+	
+    install -m644 obmocmenu.conf /etc/obmocmenu.conf
+
+4. As your user, copy "obmocmenu.conf" to "~/.config/obmocmenu/config"
+   for per-user configuration:
+
+    install -d -m755 ~/.config/obmocmenu/
+    install -m644 obmocmenu.conf ~/.config/obmocmenu/config
+
+5. Enjoy!
+
+
+
+Contact:
+----------------------------------------
+
+If you find any bugs, or have any comments, criticisms or requests, then send
+an email to: jamie tomoyolinux co uk
