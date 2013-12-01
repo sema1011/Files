@@ -1,1 +1,0 @@
-/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/moviethumbs.dir/main.cpp.o CMakeFiles/moviethumbs.dir/tools.cpp.o CMakeFiles/moviethumbs.dir/moc_tools.cxx.o  -o moviethumbs -rdynamic /usr/lib/qt4/libQtCore.so /usr/lib/qt4/libQtGui.so /usr/local/lib/libmoviethumbs.so -Wl,-rpath,/usr/lib/qt4:/usr/local/lib: 
